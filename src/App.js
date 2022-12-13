@@ -11,12 +11,12 @@ function App() {
     <NavBar />
     <Banner />
     <RowPost url={originals} title='Netflix Originals'/>
-    <RowPost url={trending} title='Action' isSmall/>
+    <RowPost url={trending} title='Trending' isSmall/>
     <RowPost url={action} title='Action' isSmall/>
-    <RowPost url={horror} title='Action' isSmall/>
-    <RowPost url={comedy} title='Action' isSmall/>
-    <RowPost url={romance} title='Action' isSmall/>
-    <RowPost url={documentaries} title='Action' isSmall/>
+    <RowPost url={horror} title='Horror' isSmall/>
+    <RowPost url={comedy} title='Comedy' isSmall/>
+    <RowPost url={romance} title='Romance' isSmall/>
+    <RowPost url={documentaries} title='Documentaries' isSmall/>
 
     </>
   );
