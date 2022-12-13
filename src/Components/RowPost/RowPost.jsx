@@ -10,7 +10,6 @@ function RowPost(props) {
     const [urlId, seturlId] = useState('')
     useEffect(() => {
       axios.get(props.url).then((response) =>{
-            
             setMovies(response.data.results)
       }).catch(err => {
         console.log(err)
@@ -21,8 +20,7 @@ function RowPost(props) {
       height: '390',
       width: '98%',
       playerVars: {
-        // https://developers.google.com/youtube/player_parameters
-        autoplay: 0,
+        autoplay: 1,
       }}
  
       const movieClick = (id) => {
